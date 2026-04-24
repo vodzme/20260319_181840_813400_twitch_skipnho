@@ -5,28 +5,28 @@
     "processing_dir": "/var/www/html/storage/app/private/processing/20260319_181840_813400_twitch_skipnho",
     "segment_seconds": 10,
     "started_at": "2026-03-19T18:18:40-03:00",
-    "ended_at": "2026-03-20T01:01:44-03:00",
-    "generated_at": "2026-04-24T15:48:50+00:00",
+    "ended_at": "2026-03-19T18:19:10-03:00",
+    "generated_at": "2026-04-24T19:43:16+00:00",
     "resume_safe": true,
     "contract": {
         "inputs": {
             "folder": "20260319_181840_813400_twitch_skipnho",
             "snapshot": {
                 "folder": "20260319_181840_813400_twitch_skipnho",
-                "live_ended_at": "2026-03-20T01:01:44-03:00",
-                "video_output_id": 1,
-                "video_ready_for_processing_at": "2026-04-24T12:48:46-03:00",
-                "chat_output_id": 2,
-                "chat_ready_for_processing_at": "2026-04-24T12:48:46-03:00"
+                "live_ended_at": "2026-03-19T18:19:10-03:00",
+                "video_output_id": 13,
+                "video_ready_for_processing_at": "2026-04-24T16:43:13-03:00",
+                "chat_output_id": 14,
+                "chat_ready_for_processing_at": "2026-04-24T16:43:13-03:00"
             },
             "video_output": {
-                "id": 1,
+                "id": 13,
                 "output_type": "video_source",
                 "status": "ready_for_processing",
                 "format": "ts",
                 "totals": {
-                    "size_bytes": 3089551768,
-                    "duration_seconds": 0
+                    "size_bytes": 23951952,
+                    "duration_seconds": 30.064
                 },
                 "summary": {
                     "descriptors_count": 1,
@@ -37,14 +37,13 @@
                 "segments_count": 1
             },
             "chat_output": {
-                "id": 2,
+                "id": 14,
                 "output_type": "chat_source",
                 "status": "ready_for_processing",
                 "format": "jsonl",
                 "totals": {
-                    "size_bytes": 8359197,
-                    "lines_total": 13047,
-                    "valid_lines_total": 13047
+                    "lines_total": 10,
+                    "valid_lines_total": 10
                 },
                 "summary": {
                     "descriptors_count": 1,
@@ -73,15 +72,15 @@
             ],
             "upload_contract": {
                 "source": "processing_result_manifest",
-                "channel_live_id": 1,
-                "channel_live_pipeline_run_id": 1,
+                "channel_live_id": 7,
+                "channel_live_pipeline_run_id": 16,
                 "status": "ready",
                 "processing_result_path": "/var/www/html/storage/app/private/processing/20260319_181840_813400_twitch_skipnho/manifests/processing_result.json"
             }
         }
     },
     "outputs": {
-        "video_output_id": 1,
-        "chat_output_id": 2
+        "video_output_id": 13,
+        "chat_output_id": 14
     }
 }

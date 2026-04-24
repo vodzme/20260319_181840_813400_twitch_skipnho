@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-04-24T15:52:11+00:00",
+    "generated_at": "2026-04-24T19:43:20+00:00",
     "mode": "copy_from_processing_source",
     "variants": {
         "1080p": {
@@ -8,12 +8,12 @@
             "probe": {
                 "width": 1920,
                 "height": 1080,
-                "fps": 60,
-                "duration_seconds": 3863.47,
-                "size_bytes": 2984601574,
+                "fps": 60.001,
+                "duration_seconds": 30.904,
+                "size_bytes": 23141801,
                 "video_codec": "h264",
                 "audio_codec": "aac",
-                "bitrate_kbps": 6180,
+                "bitrate_kbps": 5991,
                 "format_name": "mov,mp4,m4a,3gp,3g2,mj2"
             },
             "mode": "copy"
