@@ -1,0 +1,72 @@
+{
+    "folder": "20260319_181840_813400_twitch_skipnho",
+    "generated_at": "2026-04-24T15:48:51+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 3863.448333,
+        "size_bytes": 3089551768,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6398,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 1,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 3089551768,
+            "duration_seconds": 0
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 1,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_03_19_005533936_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_19_005533936_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 3089551768,
+            "format": "ts",
+            "duration_seconds": 0,
+            "validation": {
+                "legacy_import": {
+                    "accepted_without_ffprobe": true,
+                    "reason": "ffprobe_failed",
+                    "size_bytes": 3089551768
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 1,
+            "input_signature": "02889c98b4e7b3e5988971b01f59c47d2b01db8ed05ee859a3800616781feeef"
+        },
+        "validations": {
+            "totals_size_bytes": 3089551768,
+            "totals_duration_seconds": 0
+        }
+    }
+}
