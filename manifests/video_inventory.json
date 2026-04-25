@@ -1,6 +1,6 @@
 {
     "folder": "20260319_181840_813400_twitch_skipnho",
-    "generated_at": "2026-04-24T19:43:17+00:00",
+    "generated_at": "2026-04-25T16:52:50+00:00",
     "source_video": {
         "width": 1920,
         "height": 1080,
@@ -13,7 +13,7 @@
         "format_name": "mpegts"
     },
     "video_output": {
-        "id": 13,
+        "id": 3,
         "uuid": null,
         "format": "ts",
         "totals": {
@@ -57,7 +57,7 @@
     "contract": {
         "inputs": {
             "video_segments_count": 1,
-            "video_output_id": 13,
+            "video_output_id": 3,
             "input_signature": "0c75d5b3eacc07e962386449e285c7bb7094e31b714b72fc42087083cc64d603"
         },
         "validations": {

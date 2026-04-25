@@ -6,7 +6,7 @@
     "segment_seconds": 10,
     "started_at": "2026-03-19T18:18:40-03:00",
     "ended_at": "2026-03-19T18:19:10-03:00",
-    "generated_at": "2026-04-24T19:43:16+00:00",
+    "generated_at": "2026-04-25T16:52:49+00:00",
     "resume_safe": true,
     "contract": {
         "inputs": {
@@ -14,13 +14,13 @@
             "snapshot": {
                 "folder": "20260319_181840_813400_twitch_skipnho",
                 "live_ended_at": "2026-03-19T18:19:10-03:00",
-                "video_output_id": 13,
-                "video_ready_for_processing_at": "2026-04-24T16:43:13-03:00",
-                "chat_output_id": 14,
-                "chat_ready_for_processing_at": "2026-04-24T16:43:13-03:00"
+                "video_output_id": 3,
+                "video_ready_for_processing_at": "2026-04-25T13:52:46-03:00",
+                "chat_output_id": 4,
+                "chat_ready_for_processing_at": "2026-04-25T13:52:46-03:00"
             },
             "video_output": {
-                "id": 13,
+                "id": 3,
                 "output_type": "video_source",
                 "status": "ready_for_processing",
                 "format": "ts",
@@ -37,7 +37,7 @@
                 "segments_count": 1
             },
             "chat_output": {
-                "id": 14,
+                "id": 4,
                 "output_type": "chat_source",
                 "status": "ready_for_processing",
                 "format": "jsonl",
@@ -72,15 +72,15 @@
             ],
             "upload_contract": {
                 "source": "processing_result_manifest",
-                "channel_live_id": 7,
-                "channel_live_pipeline_run_id": 16,
+                "channel_live_id": 2,
+                "channel_live_pipeline_run_id": 6,
                 "status": "ready",
                 "processing_result_path": "/var/www/html/storage/app/private/processing/20260319_181840_813400_twitch_skipnho/manifests/processing_result.json"
             }
         }
     },
     "outputs": {
-        "video_output_id": 13,
-        "chat_output_id": 14
+        "video_output_id": 3,
+        "chat_output_id": 4
     }
 }

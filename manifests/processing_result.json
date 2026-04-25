@@ -1,19 +1,19 @@
 {
     "folder": "20260319_181840_813400_twitch_skipnho",
-    "generated_at": "2026-04-24T19:43:29+00:00",
+    "generated_at": "2026-04-25T16:53:02+00:00",
     "contract": {
         "inputs": {
             "folder": "20260319_181840_813400_twitch_skipnho",
             "snapshot": {
                 "folder": "20260319_181840_813400_twitch_skipnho",
                 "live_ended_at": "2026-03-19T18:19:10-03:00",
-                "video_output_id": 13,
-                "video_ready_for_processing_at": "2026-04-24T16:43:13-03:00",
-                "chat_output_id": 14,
-                "chat_ready_for_processing_at": "2026-04-24T16:43:13-03:00"
+                "video_output_id": 3,
+                "video_ready_for_processing_at": "2026-04-25T13:52:46-03:00",
+                "chat_output_id": 4,
+                "chat_ready_for_processing_at": "2026-04-25T13:52:46-03:00"
             },
             "video_output": {
-                "id": 13,
+                "id": 3,
                 "output_type": "video_source",
                 "status": "ready_for_processing",
                 "format": "ts",
@@ -30,7 +30,7 @@
                 "segments_count": 1
             },
             "chat_output": {
-                "id": 14,
+                "id": 4,
                 "output_type": "chat_source",
                 "status": "ready_for_processing",
                 "format": "jsonl",
@@ -78,8 +78,8 @@
         },
         "upload_contract": {
             "source": "processing_result_manifest",
-            "channel_live_id": 7,
-            "channel_live_pipeline_run_id": 16,
+            "channel_live_id": 2,
+            "channel_live_pipeline_run_id": 6,
             "status": "ready",
             "processing_result_path": "/var/www/html/storage/app/private/processing/20260319_181840_813400_twitch_skipnho/manifests/processing_result.json"
         }
@@ -117,8 +117,8 @@
         "mode": "copy"
     },
     "cleanup": {
-        "primary_source_ready_at": "2026-04-24T19:43:18+00:00",
-        "chat_merged_ready_at": "2026-04-24T19:43:19+00:00",
+        "primary_source_ready_at": "2026-04-25T16:52:51+00:00",
+        "chat_merged_ready_at": "2026-04-25T16:52:51+00:00",
         "recordings_cleaned": false,
         "recordings_cleaned_at": null,
         "reason": "disabled_by_config"
@@ -210,28 +210,28 @@
             },
             {
                 "relative_path": "chat/merged.jsonl",
-                "size_bytes": 644,
-                "checksum_sha256": "23daef4c6def3e5cb8eb5060d01723fa42a39225f6eed6c92ee1fb64027c723b"
+                "size_bytes": 279,
+                "checksum_sha256": "e951c6a5fd5c3540f65abbfdaa41918acd5ae98532e61d3a957eab5f9ce47030"
             },
             {
                 "relative_path": "manifests/mp4_meta.json",
                 "size_bytes": 713,
-                "checksum_sha256": "126233d30fe692c20c705cad281bbac03b7b546c85fa0fac4446bddbe3dcc637"
+                "checksum_sha256": "f31b4ffb6f4d1d546ae93fa5b5b7f73358842cd4052786d583115acc248bc85a"
             },
             {
                 "relative_path": "manifests/processing_context.json",
-                "size_bytes": 3256,
-                "checksum_sha256": "382142aea87949035196d1f4f322a5d23b206a369438ba815f9a348583e681d8"
+                "size_bytes": 3249,
+                "checksum_sha256": "d14cb0afb76be81390598e49816681333781a6d1d0c0dd577c387394873e2639"
             },
             {
                 "relative_path": "manifests/processing_result.json",
-                "size_bytes": 5567,
-                "checksum_sha256": "ad5b68881f359f4318730864e9c0b10e1153484c250242a16ef484ce24a8ca74"
+                "size_bytes": 5562,
+                "checksum_sha256": "2d1b0f36c4b49e78504ffb449fd89d35700df12f1ce6280740ad6d6aca506610"
             },
             {
                 "relative_path": "manifests/video_inventory.json",
-                "size_bytes": 1908,
-                "checksum_sha256": "a895890ead29303780b30ff74abd593090e92e74606912dabce4127031d2e397"
+                "size_bytes": 1906,
+                "checksum_sha256": "879f97b8cb4eb75f6bded80d3f9ca67fcb3f4e3d7f45b585c620da47929d5578"
             },
             {
                 "relative_path": "media/1080.mp4",
